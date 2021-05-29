@@ -1,0 +1,26 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "Estudo Dirigido",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "testJest": "jest",
+    "testMocha": "mocha 'src/test/**/*.js' --require @babel/register"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/register": "^7.13.16",
+    "babel-jest": "^27.0.1",
+    "chai": "^4.3.4",
+    "jest": "^27.0.1",
+    "mocha": "^8.4.0",
+    "nock": "^13.0.11",
+    "sinon": "^11.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
